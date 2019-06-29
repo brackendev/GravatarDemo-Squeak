@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfGravatar",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "bra 6/29/2019 20:20",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfGravatar",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

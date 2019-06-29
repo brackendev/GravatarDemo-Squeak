@@ -1,0 +1,14 @@
+{
+	"category" : "Gravatar-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "bra 6/29/2019 20:07",
+	"instvars" : [
+		 ],
+	"name" : "GravatarTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
