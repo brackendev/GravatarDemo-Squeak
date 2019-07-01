@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"examples" : "bra 6/29/2019 20:10",
+		"exampleRetrieveImageForEmail" : "bra 7/1/2019 03:47",
+		"exampleRetrieveImageForEmailSizeRating" : "bra 7/1/2019 03:47",
+		"exampleRetrieveProfileForEmail" : "bra 7/1/2019 03:48",
 		"retrieveImageForEmail:" : "bra 6/27/2019 06:00",
 		"retrieveImageForEmail:size:rating:" : "bra 6/27/2019 06:00",
 		"retrieveProfileForEmail:" : "bra 6/27/2019 06:09" },
