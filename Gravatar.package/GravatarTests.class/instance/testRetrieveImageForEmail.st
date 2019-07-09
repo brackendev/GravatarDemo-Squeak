@@ -1,5 +1,5 @@
 tests
 testRetrieveImageForEmail
-	self
-		assert: ((Gravatar retrieveImageForEmail: 'email@example.com')
-				isMemberOf: ImageMorph)
+	| response |
+	response := Gravatar retrieveImageForEmail: 'email@example.com'.
+	self assert: response bounds corner equals: 80 @ 80
