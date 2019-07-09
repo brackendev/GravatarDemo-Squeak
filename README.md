@@ -21,6 +21,7 @@ GravatarDemo-Squeak
 	    baseline: 'Gravatar';
 	    repository: 'github://brackendev/GravatarDemo-Squeak:master';
 	    onConflictUseIncoming;
+	    get;
 	    load.
     ```
 
