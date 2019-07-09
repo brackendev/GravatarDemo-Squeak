@@ -18,9 +18,10 @@ GravatarDemo-Squeak
     ```smalltalk
     Installer ensureRecentMetacello.
     Metacello new
-        baseline: 'Gravatar';
-   	    repository: 'github://brackendev/GravatarDemo-Squeak:master';
-   	    load.
+	    baseline: 'Gravatar';
+	    repository: 'github://brackendev/GravatarDemo-Squeak:master';
+	    onConflictUseIncoming;
+	    load.
     ```
 
 ## Example Usage
