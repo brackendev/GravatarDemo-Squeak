@@ -44,11 +44,6 @@ In a Squeak workspace, evaluate:
 (Gravatar retrieveProfileForEmail: 'email@example.com') inspect.
 ```
 
-## Acknowledgements
-
-* The [Squeak Oversight Board](https://squeak.org/board/) and [contributors](http://source.squeak.org/@6kbo-ZFa6mGKlyE7/CkPt4MOQ) for [Squeak](https://www.squeak.org/), the open-source [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) programming system with fast execution environments for all major platforms.
-* The [Automattic](http://automattic.com/) team for running and supporting Gravatar's free service.
-
 ## Author
 
 [brackendev](https://www.github.com/brackendev)
