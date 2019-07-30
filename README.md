@@ -12,22 +12,22 @@ GravatarDemo-Squeak
 
 ## Installation
 
-1. Install and setup [Squeak](https://www.squeak.org/).
-2. In a Squeak workspace, evaluate:
+In a Workspace, evaluate:
 
-    ```smalltalk
-    Installer ensureRecentMetacello.
-    Metacello new
-	    baseline: 'Gravatar';
-	    repository: 'github://brackendev/GravatarDemo-Squeak:master';
-	    onConflictUseIncoming;
-	    get;
-	    load.
-    ```
+```smalltalk
+Installer ensureRecentMetacello.
+Metacello new
+	baseline: 'Gravatar';
+	repository: 'github://brackendev/GravatarDemo-Squeak:master';
+	onConflict: [ :ex | ex useIncoming ];
+	onUpgrade: [ :ex | ex useIncoming ];
+	onDowngrade: [ :ex | ex useLoaded ];
+	load.
+```
 
 ## Example Usage
 
-In a Squeak workspace, evaluate:
+In a Workspace, evaluate:
 
 ```smalltalk
 "Retrieve the image for the email address, open in an inspector"
