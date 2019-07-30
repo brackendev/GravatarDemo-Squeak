@@ -17,12 +17,12 @@ In a Workspace, evaluate:
 ```smalltalk
 Installer ensureRecentMetacello.
 Metacello new
-	baseline: 'Gravatar';
-	repository: 'github://brackendev/GravatarDemo-Squeak:master';
-	onConflict: [ :ex | ex useIncoming ];
-	onUpgrade: [ :ex | ex useIncoming ];
-	onDowngrade: [ :ex | ex useLoaded ];
-	load.
+  baseline: 'Gravatar';
+  repository: 'github://brackendev/GravatarDemo-Squeak:master';
+  onConflict: [ :ex | ex useIncoming ];
+  onUpgrade: [ :ex | ex useIncoming ];
+  onDowngrade: [ :ex | ex useLoaded ];
+  load.
 ```
 
 ## Example Usage
