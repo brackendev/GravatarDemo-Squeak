@@ -12,8 +12,8 @@ GravatarDemo-Squeak
 
 ## Installation
 
-* Install and run [Squeak](https://www.squeak.org/).
-* In a Workspace, evaluate:
+1. Install and run [Squeak](https://www.squeak.org/).
+2. In a Workspace, evaluate:
 
 ```smalltalk
 Installer ensureRecentMetacello.
