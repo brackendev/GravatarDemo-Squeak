@@ -1,4 +1,4 @@
-_My Gravatar demo projects are for users to get acquainted with languages and platforms with something more than a "Hello World" example. Versions are available for [Clojure](https://github.com/brackendev/GravatarDemo-Clojure), [F#](https://github.com/brackendev/GravatarDemo-FSharp), [Newspeak](https://github.com/brackendev/GravatarDemo-Newspeak), [Pharo](https://github.com/brackendev/GravatarDemo-Pharo), and [Squeak](https://github.com/brackendev/GravatarDemo-Squeak)._
+_My Gravatar demo projects are for users to get acquainted with languages and platforms with something more than a "Hello World" example. Versions are available for [Clojure](https://github.com/brackendev/GravatarDemo-Clojure), [F#](https://github.com/brackendev/GravatarDemo-FSharp), [Newspeak](https://github.com/brackendev/GravatarDemo-Newspeak), [Pharo](https://github.com/brackendev/GravatarDemo-Pharo), [Racket](https://github.com/brackendev/GravatarDemo-Racket), and [Squeak](https://github.com/brackendev/GravatarDemo-Squeak)._
 
 - - -
 
@@ -12,7 +12,8 @@ GravatarDemo-Squeak
 
 ## Installation
 
-In a Workspace, evaluate:
+* Install and run [Squeak](https://www.squeak.org/).
+* In a Workspace, evaluate:
 
 ```smalltalk
 Installer ensureRecentMetacello.
@@ -27,7 +28,7 @@ Metacello new
 
 ## Example Usage
 
-In a Workspace, evaluate:
+Evaluate in a Workspace:
 
 ```smalltalk
 "Retrieve the image for the email address, open in an inspector"
@@ -56,6 +57,7 @@ GravatarDemo-Squeak is released under the MIT license. See the LICENSE file for 
 
 ## Useful Links
 
+* [/r/smalltalk](https://www.reddit.com/r/smalltalk/) [Reddit]
 * [@SqueakSmalltalk](https://twitter.com/SqueakSmalltalk) [Twitter]
 * [forum.world.st](http://forum.world.st/)
 * [squeak.org](https://www.squeak.org/)
