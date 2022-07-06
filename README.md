@@ -7,7 +7,7 @@ GravatarDemo-Squeak
 
 **[Squeak](https://www.squeak.org/) implementation to interact with the [Gravatar API](https://en.gravatar.com/site/implement/).**
 
-* [Squeak 5.3](https://www.squeak.org/) reference platform.
+* [Squeak 6.0](https://www.squeak.org/) reference platform.
 * Examples and tests included.
 
 ## Installation
